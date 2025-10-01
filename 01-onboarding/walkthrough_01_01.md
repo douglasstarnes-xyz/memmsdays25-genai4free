@@ -1,4 +1,4 @@
-* Fork the repository: [https://github.com/douglasstarnes/scs-genaiforfree](https://github.com/douglasstarnes/scs-genaiforfree)
+* Fork the repository: [https://github.com/douglasstarnes/memmsdays25-genai4free](https://github.com/douglasstarnes/memmsdays25-genai4free)
 * Go to the fork
 * Click the **Code** button to expand the dropdown
 * Click the **Codespaces** tab
