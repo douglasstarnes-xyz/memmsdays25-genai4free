@@ -10,7 +10,7 @@
   * Enter a name to the API key
   * Click the **Submit** button
   * Copy the API key **before** closing the dialog.  You won't be able to retrieve it later.
-  * Store the API key as a secret for your fork of the workshop repository on GitHub (see [Exercise 03-02](https://github.com) for details)
+  * Store the API key as a secret for your fork of the workshop repository on GitHub (see [Exercise 03-02]([https://github.com](https://github.com/douglasstarnes/memmsdays25-genai4free/blob/main/03-github-models/walkthrough_03_02.md)) for details)
 * In `04-groq` create a new file named `chat.py`.
 * Copy and paste the contents of `03-github-models/chat.py`
 * Set the `token` to the env var for `GROQ_API_KEY`
