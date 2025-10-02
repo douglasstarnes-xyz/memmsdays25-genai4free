@@ -3,11 +3,16 @@
 * Click **Settings**
 * Scroll down until you see **Developer settings** on the left side. Click it.
 * Expand **Personal access tokens on the left side**
-* Click **Tokens (classic)**
-* Click **Generate new token** and **Generate new token (classic)**
+* Click **Fine-grained tokens**
+* Click **Generate new token**
     * You may be asked to reauthenticate
-* Add a **Note** to the token (i.e. SCS AI Demo).
+* Give the token a name
+* Scroll down to **Permissions**
+* Click **+ Add permissions**
+* Search for *Models*
+* Check the box for Models
 * Leave the rest of the settings as is and click **Generate token** at the bottom of the screen.
+* Click **Generate token** to dimiss the pop up
 * The generated token is shown. *Don't close this page yet!* You won't be able to see it again.
 * In a new tab, go to github.com again.
 * Click on your profile picture and **Settings**
