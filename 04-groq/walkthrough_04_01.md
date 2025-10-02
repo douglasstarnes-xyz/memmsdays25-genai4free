@@ -11,22 +11,8 @@
   * Click the **Submit** button
   * Copy the API key **before** closing the dialog.  You won't be able to retrieve it later.
   * Store the API key as a secret for your fork of the workshop repository on GitHub (see [Exercise 03-02](https://github.com) for details)
-* In your Codepsace, open the terminal panel (*Ctrl-\`*) and install the `groq` Python package.
-  ```bash
-  pip install groq
-  ```
 * In `04-groq` create a new file named `chat.py`.
 * Copy and paste the contents of `03-github-models/chat.py`
-* Replace the line
-  ```python
-  from openai import OpenAI
-  ```
-  with
-  ```python
-  from groq import Groq
-  ```
-* Replace the line creating the `OpenAI` client with
-  ```python
-  client = Groq(api_key=os.getenv("GROQ_API_KEY")) # replace GROQ_API_KEY with the name of your secret
-  ```
+* Set the `token` to the env var for `GROQ_API_KEY`
+* Replace the `base_url` value with `https://api.groq.com/openai/v1`
 * In the line that calls the `create` method, set the `model` keyword argument to `llama-3.3-70b-versatile`
